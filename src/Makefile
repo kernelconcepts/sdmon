@@ -1,7 +1,8 @@
 # (c)2018 ogi-it, Ognian Tschakalov
 
 VERSION = 0.01
-CC      = /usr/bin/gcc
+# CC is just set by the toolchain
+#CC      = /usr/bin/gcc
 CFLAGS  = -Wall -g -D_REENTRANT -DVERSION=\"$(VERSION)\"
 LDFLAGS =
 
